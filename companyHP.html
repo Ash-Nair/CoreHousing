@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html> 
+    <!--Title of Page-->
+<title>CORE: Finding Home</title>
+    <head>
+    <!-----------------------------STYLESHEETS---------------------------------------------------->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Bangers|Bowlby+One+SC|Bungee|Chewy|Coiny|Electrolize|Fruktur|Jockey+One|Luckiest+Guy|Mouse+Memoirs|Orbitron|PT+Mono|Passion+One|Russo+One|Sigmar+One|Pacifico|Ropa+Sans|Ubuntu|Share+Tech+Mono|Teko|PT+Sans+Narrow|Rubik+One|Cuprum|Hammersmith+One|Squada+One|Amaranth|Viga|Concert+One|Lilita+One|Londrina+Solid|Oswald|Ubuntu+Condensed|Viga|Grand+Hotel|Jockey+One|Squada+One|Denk+One|Chau+Philomene+One|Boogaloo" rel="stylesheet">
+        </head>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("http://cdn.home-designing.com/wp-content/uploads/2016/02/orange-and-black-interior-artwork-ideas.jpg");
+    min-height: 100%;
+}
+.w3-navbar li a {
+    padding: 16px;
+    float: left;
+}
+</style>
+<body>
+<!-----------------------------------Navbar JS + CSS + HTML------------------------------------------------------------------------->
+<!-- Navbar (sit on top) -->
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <ul class="w3-navbar" id="myNavbar">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+      <a class="w3-hover-black" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+    </li>
+    <li class="w3-left-align"><a href="#home" style="font-family: 'Jockey One', sans-serif; margin-top: 0px">CORE</a></li>
+    <li class="w3-right w3-hide-small" style="font-family: 'Jockey One', sans-serif;">
+      <a href="#about">ABOUT</a>
+      <a href="#team"><i class="fa fa-chain"></i> SOFTWARE</a>
+      <a href="#work"><i class="fa fa-th"></i> WORK</a>
+      <a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a>
+    </li>
+      </a>
+    </li>
+  </ul>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium" style="height:90px">
+    <ul class="w3-navbar w3-left-align w3-white">
+      <li class="w3-right w3-hide-small">
+      <a href="#about">ABOUT</a>
+      <a href="#team"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work"><i class="fa fa-th"></i> WORK</a>
+      <a href="#pricing"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a>
+    </li>
+    </ul>
+  </div>
+</div>
+    <script>   
+    // Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+    </script>
+<!-----------------------------------Navbar JS + CSS + HTML------------------------------------------------------------------------->
+
+
+<!-- Sidenav on small screens when clicking the menu icon -->
+<nav class="w3-sidenav w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()">ABOUT</a>
+  <a href="#team" onclick="w3_close()">TEAM</a>
+  <a href="#work" onclick="w3_close()">WORK</a>
+  <a href="#pricing" onclick="w3_close()">PRICING</a>
+  <a href="#contact" onclick="w3_close()">CONTACT</a>
+</nav>
+
+<!-------------------------------------Home Page Contents------------------------------------------------------>
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min  w3-opacity-min" id="home">
+  <div class="w3-display-middle w3-padding-xxlarge w3-text-white">
+        <div style="margin-top: 200px">
+          <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity" style="margin-left: 30px;"><span class="w3-hide-small" style="margin-top: 10px">THE JOURNEY HOME STARTS HERE</span></span>
+            </div>
+      <div style="margin-left:-350px; margin-top:180px">
+    <p><a href="#about" class="w3-btn w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off" style = "margin-left: 0px; margin-top: 300px">Learn more and start today</a></p>
+          </div>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-xxlarge w3-text-grey w3-large">
+    <a href="#" class="w3-hover-text-white"><i class="fa fa-facebook-official"></i></a>
+    <a href="#" class="w3-hover-text-white"><i class="fa fa-flickr"></i></a>
+    <a href="#" class="w3-hover-text-white"><i class="fa fa-instagram"></i></a>
+    <a href="#" class="w3-hover-text-white"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="w3-hover-text-white"><i class="fa fa-linkedin"></i></a>
+  </div>
+</header>
+<!-------------------------------------Home Page Contents------------------------------------------------------>
+
+
+<!---------------------------------------------------------------- About Software Section ------------------------------------------------------->
+<div class="w3-container w3-padding-128" id="about" style="background-color: #E9EEF6; height: 300px">
+    <!--FOR BUYERS--->
+  <div class="w3-content w3-container w3-padding-64" id="about" style="height: 300px;">
+    <div class="w3-content w3-container w3-padding-64" id="about" style="height: 300px; margin-left: -300px; margin-top:-64px">
+            <div style = "margin-left: 160px; margin-top: -50px; color: #E9EEF6">
+        </div>
+    </div>
+    <div class="w3-content w3-container w3-padding-64" id="about" style="height: 300px; margin-left: 900px; margin-top:-300px; width: 500px">
+    </div>
+    <div style="margin-left: -180px; margin-top: -350px">
+       <img src= "http://image.flaticon.com/icons/svg/141/141034.svg" alt="man" style="height: 50px; width: 70px; margin-left: 77px; margin-top: 30px">
+         <img src= "http://image.flaticon.com/icons/svg/141/141027.svg" alt="man" style="height: 70px; width: 70px; margin-left: 0px; margin-top: 0px">
+         <img src= "http://image.flaticon.com/icons/svg/148/148999.svg" alt="man" style="height: 50px; width: 70px; margin-left: -7px; margin-top: 20px">
+    <img src= "http://www.freeiconspng.com/uploads/green-arrow-png-2.png" alt="arrow" style="height: 70px; width: 70px; margin-left: 40px; margin-top: 0px">
+    <img src= "http://image.flaticon.com/icons/svg/214/214289.svg" alt="website" style="height: 70px; width: 100px; margin-left: 50px; margin-top: 0px">
+    <img src= "http://www.freeiconspng.com/uploads/green-arrow-png-2.png" alt="arrow" style="height: 70px; width: 70px; margin-left: 70px; margin-top: 0px">
+    <img src= "http://image.flaticon.com/icons/svg/252/252027.svg" alt="list" style="height: 70px; width: 70px; margin-left: 70px; margin-top: 0px">
+    <img src= "http://www.freeiconspng.com/uploads/green-arrow-png-2.png" alt="arrow" style="height: 70px; width: 70px; margin-left: 70px; margin-top: 0px">
+    </div>
+    <div style= "margin-top: -25px">
+    <img src= "http://image.flaticon.com/icons/svg/189/189083.svg" alt="home" style="height: 70px; width: 70px; margin-left: 860px; margin-top: -1200px">
+        </div>
+     <div style="margin-left: -200px">
+    <form>
+        <p style = "font-family: 'PT Sans Narrow', sans-serif; font-size: 15px; margin-left: 145px; margin-top: 40px; color: black"><b>Get on your device!</b></p>
+        <p style = "font-family: 'PT Sans Narrow', sans-serif;font-size: 15px; margin-left: 470px; margin-top: -42px; color: black"><b>Visit our website!</b></p>
+        <p style = "font-family: 'PT Sans Narrow', sans-serif; font-size: 15px; margin-left: 760px; margin-top: -42px; color: black"><b>Input your preferences!</b></p>
+        <p style = "font-family: 'PT Sans Narrow', sans-serif; font-size: 15px; margin-left: 1027px; margin-top: -40px; color: black"><b>Find your dream home!</b></p>
+    </form>
+         </div>
+        </div>  
+    
+    <!--FOR SELLERS-->
+    
+</div>     
+<!---------------------------------------------------------------- About Software Section ------------------------------------------------------->
+
+ <!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-padding-64" style="background-color: #D84E13">
+  <p style="margin-left: 730px; font-family: 'Squada One', cursive; font-size: 56px; color: #DEE0D5;margin-top: 0px">Signup Today!</p>
+    <div style="margin-top: -40px">
+    <p style="margin-left: 730px; font-family: 'Squada One', cursive; font-size: 26px; color: #DEE0D5;">Using Trulia and Zillow, we make sure you get the optimal options for the houses you desire by providing criteria that takes into account every minor detail.</p>
+        <button style="background-color: #DBE8F9; border: none; color: black; padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 14px; margin-left: 750px; font-family: 'Chau Philomene One', sans-serif;" onClick="location.href='signup.html'"><i class="fa fa-arrow-right"></i> Create Your Account</button>
+         <button style="background-color: #DBE8F9; border: none; color: black; padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 14px; margin-left: 750px; margin-top: 30px; font-family: 'Chau Philomene One', sans-serif;" onClick="location.href='signin.html'"><i class="fa fa-arrow-right"></i> Already a member? Login Here.</button>
+        <!--
+        <a href="#work" class="w3-btn" style="background-color: #DBE8F9; color: #000; font-family: 'Chau Philomene One', sans-serif; margin-left:720px; margin-top: 50px"><i class="fa fa-arrow-right"></i> Create Your Account</a>-->
+    </div>
+    <div class="w3-col m6" style="margin-top:-320px">
+      <img class="w3-image w3-round-large" src="https://s-media-cache-ak0.pinimg.com/736x/7a/dc/79/7adc7998a13607395e0c548278721460.jpg" alt="Buildings" width="700" height="394" style="border-radius: 25px">
+    </div>
+  </div>
+
+<!-----------------------------------------------------------------------Software Section---------------------------------------------------------->
+<div class="w3-container w3-padding-128" id="team" style="background-color: #E9EEF6 ">
+    <div style="margin-top: -100px">
+    <span class="w3-xxlarge w3-text-black w3-wide" style = "margin-left: 500px; margin-top: -2050px;">SOFTWARE</span>
+        </div>
+     <div class = "box2"; style = "background-color: #287AA9; height: 100px; width: 650px; margin-left: 10px; margin-top: 30px; padding: 20px; box-shadow: 10px 10px #AFBBD2;">
+         <p style="font-family: 'Squada One', cursive; font-size: 30px; color: snow; margin-left: 45px; margin-top: 0px">Give us a description of your preferences here</p>
+</div>
+    <iframe src="https://synd.trulia.com/tools/map-search/embedded?params%5Blocation%5D=Atlanta%2C+GA&params%5BlocationId%5D=4520&params%5Bagent_id%5D=&params%5Bproperty_status%5D=for+sale&params%5Btitle%5D=Map+Search&params%5Bcolor%5D=green&params%5Bemail%5D=&params%5Buser_url%5D=&params%5Bwidth%5D=600&params%5Bheight%5D=300&params%5Bguid%5D=580e3420863c1" style="height: 300px; overflow: hidden; width: 600px; margin-top:40px; margin-left: 700px"></iframe>
+    
+       <div class = "box"; style = "background-color: #739240; height: 520px; width: 650px; margin-left: 10px; margin-top: -363px; padding: 20px; border-radius: 0px; box-shadow: 10px 10px #AFBBD2;"> 
+           <textarea rows="4" cols="50" style="height: 350px; width: 600px; margin-left: 5px; margin-top: 30px">
+           </textarea>
+           <button type="submit" class="btn btn-default" style="background-color: #CCCCCC; margin-top: 10px; width: 200px; height: 50px; font-family: 'Boogaloo', cursive; font-size: 20px; border: 2px solid black; margin-left: 190px"><a href="Try%20Free%20Output.html" style="color: black">Submit</a></button>
+    </div>
+</div>
+        <!-- Promo Section "promo" -->
+<!-- Promo Section - "Sign Up Today" -->
+<div class="w3-container w3-padding-64" style="background-color: #D84E13">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+    <!--  <h3 style="font-family: 'Squada One', cursive; font-size: 60px; color: #DEE0D5"><b>Signup Today!</b></h3>-->
+      <p style="font-family: 'Squada One', cursive; font-size: 56px; color: #DEE0D5; margin-top:-20px">DON'T STREAM ALONE, IT'S AS WIDE AS AN OCEAN OUT THERE!</p>
+      <p style="font-family: 'Squada One', cursive; font-size: 26px; color: #DEE0D5; margin-top:-20px">Let us guide you in the right direction. Together, we'll weather the storm and find your dream home. </p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="https://s-media-cache-ak0.pinimg.com/originals/e2/9f/04/e29f045e30cc00cf58249dabaa515fa4.gif" alt="Buildings" width="700" height="394" style="border-radius: 25px">
+    </div>
+  </div>
+</div>
+<!----------------------------------------------------------------- Promo Section - "Sign Up Today" ---------------------------------------------->
+
+
+<div class="w3-container w3-padding-128" id="partners" style="background-color: #E9EEF6 ">
+<div style = "margin-left: -150px; margin-top: -63px;">
+         <span class="w3-xxlarge w3-text-black w3-wide" style = "margin-left: 700px; margin-top: -900px;">PARTNERS</span>
+    </div>
+    <div class="w3-content w3-container w3-padding-64" id="about" style="height: 300px;margin-left: -50px; margin-top:-65px">
+        <img src="https://tctechcrunch2011.files.wordpress.com/2013/03/trulia-png.png" alt="trulia" style = "height:150px; width: 250px; margin-left: 150px;margin-top:20px">
+    </div>
+    <div class="w3-content w3-container w3-padding-64" id="about" style="height: 200px; margin-left: 1100px; margin-top:-270px; width: 500px">
+         <img src="http://logonoid.com/images/google-maps-logo.png" alt="gmaps" style = "height:150px; width:200px; margin-left: -550px; margin-top:0px"> 
+    </div>
+    <div class="w3-content w3-container w3-padding-64" id="about" style="height: 300px; margin-left: 1100px; margin-top:-230px; width: 500px">
+        <img src="http://logonoid.com/images/zillow-logo.png" alt="zillow" style = "height:150px; width:250px; margin-left: -170px; margin-top:30px">
+    </div>
+</div>
+<div class="w3-container w3-padding-128" id="team" style="background-color: #D84E13 ">
+      <div style= "margin-top: -270px; margin-left: 210px ">
+      <iframe width="600" height="350"frameborder="0" style="border:0; margin-left: -200px; margin-top: 250px"src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAhDosa2v_6wUB92qK2p91lV9ZE5FZ5ucM
+    &q=Georgia+State+University,Atlanta+GA" allowfullscreen>
+</iframe>
+        </div>
+    <div style = "margin-top: -300px; margin-left: 0px">
+    <p style="margin-left: 900px;font-family: 'Viga', sans-serif; font-size: 18px;  color: black">CORE</p>
+    <p style="margin-left: 900px;font-family: 'Viga', sans-serif; font-size: 18px; color: black">33 Gilmer Street SE Atlanta, GA</p>
+    <p style="margin-left: 900px;font-family: 'Viga', sans-serif; font-size: 18px; color: black">Phone: (123) 456-7890</p>
+    <p style="margin-left: 900px; font-family: 'Viga', sans-serif; font-size: 18px; color: black">Email: support@core.com</p>
+</div>
+</div>
+<!------------------------------------------------------------From W3Schools---------------------------------------------------------------------->
+    <footer class="w3-center w3-black w3-padding-64 w3-hover-opacity-off" style="width: 1373px; margin-left: -20px">
+  <a href="#home" class="w3-btn w3-padding w3-light-grey w3-hover-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by Trulia</p>
+ <p> ©CORE 2016</p>
+        
+</footer>
+</body>
+</html>
